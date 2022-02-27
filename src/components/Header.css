@@ -2,22 +2,23 @@
   display: flex;
   align-items: center;
   height: 65px;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  background: rgb(17,17,17);
+  background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(1,50,32,1) 35%, rgba(79,121,66,1) 100%);
   color: #FFF;
   padding: 20px;
 }
 
-.header--image {
+.header__image {
   height: 100%;
   margin-right: 8px;
 }
 
-.header--title {
+.header__title {
   font-size: 1.25rem;
   margin-right: auto;
 }
 
-.header--project {
+.header__project {
   font-size: 0.75rem;
   font-weight: 600;
 }

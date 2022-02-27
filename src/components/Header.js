@@ -7,10 +7,10 @@ export default function Header() {
       <img 
           src='./images/circle-headshot.png' 
           alt='head shot icon of Lucas Frazier'
-          className='header--image'
+          className='header__image'
       />
-      <h2 className='header--title'>Meme Generator</h2>
-      <h4 className='header--project'>A React App - By Lucas Frazier</h4>
+      <h2 className='header__title'>Meme Generator</h2>
+      <h4 className='header__project hide__small'>A React App<br />by Lucas Frazier</h4>
     </header>
   )
 }
