@@ -1,0 +1,13 @@
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+@media screen and (max-width: 449px) {
+  .hide__small {
+    display: none;
+  }
+}
